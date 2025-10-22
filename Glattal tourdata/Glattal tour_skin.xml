@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+    
+  <!-- Spot Style - style 1 -->
+
+
+  <style name="Iconstyle1"
+         url="%FIRSTXML%/spots/transition_user_defaultpoint0.png"
+         visible="false"
+         edge="center"
+         onhover="onhoverIconstyle1"
+         onout="onoutIconstyle1"
+
+         height="50"
+         width="50"
+         />
+  <action name="onhoverIconstyle1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconstyle1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+  <!-- unsupported kind of display : PointMap -->
+
+
+<!-- ********** -->
+<!-- Material options -->
+<!-- id : togglebutton -->
+<!-- ********** -->
+
+  <!-- EMPTY TOGGLE BUTTON : no image file -->
+<!-- ********** -->
+<!-- Floor plan -->
+<!-- id : floorPlan -->
+<!-- ********** -->
+
+	<ptplugin name="floorPlan" engine="KolorFloorPlan">
+		<settings>
+			<option name="background_color" value="727272" type="string" />
+			<option name="background_lighter_color" value="898989" type="string" />
+			<option name="background_darker_color" value="5f5f5f" type="string" />
+			<option name="background_alpha" value="1" type="float" />
+			<option name="text_color" value="000000" type="string" />
+
+			<option name="resize" value="true" type="bool" />
+			<option name="fp_selector" value="one" type="string" />
+			<option name="fp_selector_label" value="floorPlanmenu_label" type="string" />
+			<option name="display_title" value="false" type="bool" />
+			<option name="title_font" value="Verdana" type="string" />
+			<option name="title_size" value="14" type="int" />
+			<option name="title_weight" value="normal" type="string" />
+			<option name="title_decoration" value="normal" type="string" />
+			<option name="title_color" value="000000" type="string" />
+			<option name="display_orientation" value="false" type="bool" />
+			<option name="display_radar" value="false" type="bool" />
+			<option name="close_on_click" value="true" type="bool" />
+			<option name="position" value="center" type="string" />
+			<option name="zorder" value="2" type="int" />
+			<option name="use_i18n" value="true" type="bool" />
+		</settings>
+		
+		<floorplanItems selectedItem="fpitemmain" selectedSpot="" selectedSpotScene="" selectedSpotHeading="" selectedSpotFov="">
+				
+				<floorplanItem 
+					name="fpitemmain" 
+					width="4000" 
+					height="2000" 
+					groupName="" 
+					url="floorplan/glattal_tour_plan.png" 
+					title="project_floor_title"
+					heading="0">
+							<spot name="spotmap277" posX="0.130943999" posY="0.256222993" heading="0" desc="spotmap277_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano30" jsClick="spotmap277ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap278" posX="0.231162995" posY="0.300146013" heading="0" desc="spotmap278_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano29" jsClick="spotmap278ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap279" posX="0.231162995" posY="0.493411005" heading="0" desc="spotmap279_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano110" jsClick="spotmap279ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap280" posX="0.095830299" posY="0.515372992" heading="0" desc="spotmap280_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano26" jsClick="spotmap280ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap281" posX="0.278780013" posY="0.408010006" heading="0" desc="spotmap281_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano20" jsClick="spotmap281ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap282" posX="0.279444009" posY="0.310395002" heading="0" desc="spotmap282_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano23" jsClick="spotmap282ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap283" posX="0.28163901" posY="0.506588995" heading="0" desc="spotmap283_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano27" jsClick="spotmap283ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap284" posX="0.411119014" posY="0.402635008" heading="0" desc="spotmap284_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano21" jsClick="spotmap284ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap285" posX="0.414777011" posY="0.52562201" heading="0" desc="spotmap285_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano22" jsClick="spotmap285ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap286" posX="0.419898003" posY="0.275256008" heading="0" desc="spotmap286_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano19" jsClick="spotmap286ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap287" posX="0.204827994" posY="0.660322011" heading="0" desc="spotmap287_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano28" jsClick="spotmap287ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap288" posX="0.30577901" posY="0.660322011" heading="0" desc="spotmap288_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano25" jsClick="spotmap288ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap289" posX="0.101682998" posY="0.660322011" heading="0" desc="spotmap289_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano24" jsClick="spotmap289ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap290" posX="0.869055986" posY="0.622255027" heading="0" desc="spotmap290_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano51" jsClick="spotmap290ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap291" posX="0.820774972" posY="0.72913599" heading="0" desc="spotmap291_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano53" jsClick="spotmap291ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap292" posX="0.872713983" posY="0.855050981" heading="0" desc="spotmap292_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano44" jsClick="spotmap292ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap293" posX="0.784931004" posY="0.519765973" heading="0" desc="spotmap293_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano47" jsClick="spotmap293ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap294" posX="0.673007011" posY="0.396779001" heading="0" desc="spotmap294_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano45" jsClick="spotmap294ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap295" posX="0.673738003" posY="0.598828971" heading="0" desc="spotmap295_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano48" jsClick="spotmap295ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap296" posX="0.588881016" posY="0.531479001" heading="0" desc="spotmap296_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano46" jsClick="spotmap296ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap297" posX="0.723482013" posY="0.784772992" heading="0" desc="spotmap297_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano43" jsClick="spotmap297ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap298" posX="0.745428026" posY="0.379209012" heading="0" desc="spotmap298_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano50" jsClick="spotmap298ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap299" posX="0.596928" posY="0.377745003" heading="0" desc="spotmap299_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano49" jsClick="spotmap299ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+							<spot name="spotmap300" posX="0.697879016" posY="0.300146013" heading="0" desc="spotmap300_tooltip" descType="tooltip" groupName="" isScene="true" planar="false" scene="pano52" jsClick="spotmap300ActionSpotFloorPlan">
+								<icon url="spots/plan point_user_defaultmap0.png" iconWidth="15" iconHeight="15" iconAnchor="center" />
+							</spot>
+				</floorplanItem>
+			
+			
+		</floorplanItems>
+	</ptplugin>
+	
+	<action name="kolorFloorplanJsReady_floorPlan">
+		set(ptplugin[floorPlan].jsready, true);
+		
+		ifnot(ptplugin[floorPlan].floorplanItems.selectedSpot == "",
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotFov, get(view.hfov));
+			js(invokePluginFunction(floorPlan, setKolorFloorPlanSelectedSpotOptions, get(xml.scene), get(view.hlookat), get(view.hfov)));
+		);
+	</action>
+	
+	
+		<!-- floorplan main spots counter : 24 -->
+			<action name="spotmap277ActionSpotFloorPlan">if(xml.scene == pano30,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano30);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap278ActionSpotFloorPlan">if(xml.scene == pano29,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano29);lookat(68.850000, 0.000000, 90.000000);
+
+</action>
+			<action name="spotmap279ActionSpotFloorPlan">if(xml.scene == pano110,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano110);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap280ActionSpotFloorPlan">if(xml.scene == pano26,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano26);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap281ActionSpotFloorPlan">if(xml.scene == pano20,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano20);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap282ActionSpotFloorPlan">if(xml.scene == pano23,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano23);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap283ActionSpotFloorPlan">if(xml.scene == pano27,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano27);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap284ActionSpotFloorPlan">if(xml.scene == pano21,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano21);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap285ActionSpotFloorPlan">if(xml.scene == pano22,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano22);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap286ActionSpotFloorPlan">if(xml.scene == pano19,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano19);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap287ActionSpotFloorPlan">if(xml.scene == pano28,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano28);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap288ActionSpotFloorPlan">if(xml.scene == pano25,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano25);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap289ActionSpotFloorPlan">if(xml.scene == pano24,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano24);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap290ActionSpotFloorPlan">if(xml.scene == pano51,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano51);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap291ActionSpotFloorPlan">if(xml.scene == pano53,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano53);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap292ActionSpotFloorPlan">if(xml.scene == pano44,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano44);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap293ActionSpotFloorPlan">if(xml.scene == pano47,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano47);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap294ActionSpotFloorPlan">if(xml.scene == pano45,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano45);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap295ActionSpotFloorPlan">if(xml.scene == pano48,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano48);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap296ActionSpotFloorPlan">if(xml.scene == pano46,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano46);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap297ActionSpotFloorPlan">if(xml.scene == pano43,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano43);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap298ActionSpotFloorPlan">if(xml.scene == pano50,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano50);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap299ActionSpotFloorPlan">if(xml.scene == pano49,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano49);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+			<action name="spotmap300ActionSpotFloorPlan">if(xml.scene == pano52,if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+floorPlanActivateDefaultSpot();););
+          mainloadscene(pano52);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+</action>
+	
+	
+	
+	<events name="floorPlanEvents" 
+	onxmlcomplete="ifnot(floorPlanFloorPlanLoaded,set(tour_displayfloorplan,false););floorPlanActivateDefaultSpot();" 
+	onhidetourfloorplan="floorPlanCloseTourFloorPlan();" 
+	onshowtourfloorplan="if(tour_displayfloorplan,floorPlanOpenTourFloorPlan(););" 
+	onTourStart=""
+	changetourlanguage="floorPlanChangeLanguage();"
+	keep="true" />
+	
+	<action name="floorPlanChangeLanguage">
+		if(ptplugin[floorPlan].jsready,
+			stopdelayedcall(delay_floorPlan);
+			js(invokePluginFunction(floorPlanArea, changeLanguage, false));
+			js(invokePluginFunction(floorPlan, changeLanguage));
+		,
+			delayedcall(delay_floorPlan, 0.1, floorPlanChangeLanguage(););
+		);
+	</action>
+	
+	
+	<krpano floorPlanFloorPlanLoaded="false" />
+	
+	<action name="floorPlanHideTourFloorPlan">
+		hideKolorArea_floorPlanArea(true);
+	</action>
+	
+	<action name="floorPlanCloseTourFloorPlan">
+		closeKolorArea_floorPlanArea();
+	</action>
+	
+	<action name="floorPlanShowTourFloorPlan">
+		if(ptplugin[floorPlanArea].isOpen === null,
+			openKolorArea_floorPlanArea();
+		,
+			showKolorArea_floorPlanArea(true);
+		);
+	</action>
+	
+	<action name="floorPlanOpenTourFloorPlan">
+		openKolorArea_floorPlanArea();
+	</action>
+	
+	
+	<action name="floorPlanActivateSpot">
+		
+		set(ptplugin[floorPlan].floorplanItems.selectedSpot, %1);
+		set(ptplugin[floorPlan].floorplanItems.selectedItem, %2);
+		
+		if(%1 !== "",
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotScene, get(xml.scene));
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotHeading, get(view.hlookat));
+			set(ptplugin[floorPlan].floorplanItems.selectedSpotFov, get(view.hfov));
+		);
+		
+		
+		if(ptplugin[floorPlanArea].isOpen,
+			floorPlanSelectActivatedSpot(%1, %2, %3);
+		);
+	</action>
+	
+	<action name="floorPlanSelectActivatedSpot">
+		js(invokePluginFunction(floorPlan, selectSpot, %1, %2, %3));
+
+	</action>
+	
+	<action name="floorPlanDeactivateSpot">
+		set(ptplugin[floorPlan].floorplanItems.selectedSpot, "");
+		
+		js(invokePluginFunction(floorPlan, unselectSpot));
+	</action>
+	
+	<action name="floorPlanActivateDefaultSpot">
+		set(floorPlanFloorPlanLoaded, true);
+		
+		set(floorPlanSpotFound, "");
+		set(floorPlanSpotScene, "");
+		set(floorPlanItemFound, "");
+		set(floorPlanItemSearch, true);
+		set(floorPlanSpotSearchActivated, true);
+		set(floorPlanSpotSearchContinue, true);
+		
+		
+		for(set(defaultfloorplaniteminc,0), defaultfloorplaniteminc LT ptplugin[floorPlan].floorplanItems.floorplanItem.count , inc(defaultfloorplaniteminc),
+                        if(floorPlanSpotSearchActivated == true,
+				
+				if(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].groupName == scene[get(xml.scene)].group,
+					set(floorPlanItemFound, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+					set(ptplugin[floorPlan].floorplanItems.selectedItem, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+					set(floorPlanItemSearch, false);
+				,
+					
+					if(floorPlanItemFound == "",
+						set(floorPlanItemFound, get(ptplugin[floorPlan].floorplanItems.floorplanItem[fpitemmain].name));
+						set(ptplugin[floorPlan].floorplanItems.selectedItem, get(ptplugin[floorPlan].floorplanItems.floorplanItem[fpitemmain].name));
+					);
+				);
+			);
+			if(floorPlanSpotSearchActivated == true,
+                                for(set(defaultspotinc,0), defaultspotinc LT ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot.count , inc(defaultspotinc),
+                                        if(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].isScene == true,
+					
+						if(floorPlanSpotSearchContinue == true,
+							if(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].scene == xml.scene,
+								set(floorPlanSpotFound, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].name));
+								set(floorPlanSpotScene, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].spot[get(defaultspotinc)].scene));
+								set(ptplugin[floorPlan].floorplanItems.selectedItem, get(ptplugin[floorPlan].floorplanItems.floorplanItem[get(defaultfloorplaniteminc)].name));
+								if(floorPlanItemSearch == false,
+									set(floorPlanSpotSearchContinue, false);
+									set(floorPlanSpotSearchActivated, false);
+								);
+							);
+						);
+					);
+					
+				);
+			);
+		);
+		
+		if(floorPlanSpotFound == "",
+			
+			
+			floorPlanDeactivateSpot();
+			
+			
+			set(ptplugin[floorPlan].floorplanItems.selectedItem, get(floorPlanItemFound));
+			
+			
+			ifnot(ptplugin[floorPlan].floorplanItems.selectedItem == "",
+				floorPlanActivateSpot("", get(ptplugin[floorPlan].floorplanItems.selectedItem), "");
+			);
+		,
+			
+			floorPlanActivateSpot(get(floorPlanSpotFound), get(ptplugin[floorPlan].floorplanItems.selectedItem), get(floorPlanSpotScene));
+		);
+	</action>
+	
+	<action name="floorPlanChangeTitle">
+		js(invokePluginFunction(floorPlan, changeTitle, %1));
+	</action>
+	
+	<ptplugin name="floorPlanArea" engine="kolorArea">
+	<settings>
+		<option name="position" value="center" type="string" />
+		<option name="start_position" value="left" type="string" />
+		<option name="margin_x" value="0" type="int" />
+		<option name="margin_y" value="0" type="int" />
+		<option name="display_title" value="false" type="bool" />
+		<option name="title_font" value="Verdana" type="string" />
+		<option name="title_size" value="14" type="int" />
+		<option name="title_weight" value="normal" type="string" />
+		<option name="title_decoration" value="normal" type="string" />
+		<option name="title_color" value="000000" type="string" />
+		<option name="close_displayed" value="true" type="bool" />
+		<option name="close_text" value="floorPlandisplay_close_text" type="string" />
+
+		<option name="background_color" value="727272" type="string" />
+		<option name="background_alpha" value="1" type="float" />
+		<option name="overlay_displayed" value="false" type="bool" />
+		<option name="overlay_color" value="000000" type="string" />
+		<option name="overlay_alpha" value="0.50000762951094835" type="float" />
+
+		<option name="padding" value="15" type="int" />
+		<option name="topleft_radius" value="0" type="int" />
+		<option name="topright_radius" value="0" type="int" />
+		<option name="bottomleft_radius" value="0" type="int" />
+		<option name="bottomright_radius" value="0" type="int" />
+		<option name="area_border_width" value="0" type="int" />
+		<option name="area_border_color" value="f2f2f2" type="string" />
+		<option name="area_border_alpha" value="1" type="float" />
+		<option name="area_width" value="1600" type="int" />
+		<option name="area_height" value="800" type="int" />
+		<option name="area_width_unit" value="pixel" type="string" />
+		<option name="area_height_unit" value="pixel" type="string" />
+		<option name="animation" value="true" type="bool" />
+		<option name="animation_duration" value="500" type="int" />
+		<option name="close_on_click" value="true" type="bool" />
+		<option name="refresh_content" value="false" type="bool" />
+		<option name="open_callback" value="addKolorFloorPlan('floorPlan', 'floorPlanArea_floorplanDIV');" type="string" />
+		<option name="close_callback" value="invokeKrFunction('closeKolorAreaCallback_floorPlanArea')" type="string" />
+		<option name="zorder" value="2" type="int" />
+		<option name="use_i18n" value="true" type="bool" />
+	</settings>
+	</ptplugin>
+	
+	<action name="kolorAreaJsReady_floorPlanArea">
+		set(ptplugin[floorPlanArea].jsready, true);
+
+	</action>
+	
+	<action name="openKolorArea_floorPlanArea">
+		ifnot(ptplugin[floorPlanArea].isOpen,
+			set(ptplugin[floorPlanArea].isOpen, true);
+			pauseautorotation(forceplugin);
+
+			js(showKolorArea(floorPlanArea, &lt;div id="floorPlanArea_floorplanDIV"&gt;&lt;/div&gt;));
+			
+			if(ptplugin[floorPlan].floorplanItems.selectedSpot != "",
+				floorPlanSelectActivatedSpot(get(ptplugin[floorPlan].floorplanItems.selectedSpot), get(ptplugin[floorPlan].floorplanItems.selectedItem), get(ptplugin[floorPlan].floorplanItems.selectedSpotScene));
+			);
+			events.dispatch(onremovedisplayedobject);
+		);
+	</action>
+	
+	<action name="closeKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,
+			js(invokePluginFunction(floorPlanArea, closeKolorArea));
+		);
+	</action>
+	
+	<action name="toggleKolorArea_floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,
+			closeKolorArea_floorPlanArea();
+		,
+			openKolorArea_floorPlanArea();
+		);
+	</action>
+	
+	<action name="closeKolorAreaCallback_floorPlanArea">
+		if(ptplugin[floorPlanArea].isOpen,resumeautorotation(forceplugin);
+
+			
+		);
+		set(ptplugin[floorPlanArea].isOpen, false);hideFloorplan();
+
+	</action>
+	
+	<action name="changeTitleKolorArea_floorPlanArea">
+		js(invokePluginFunction(floorPlanArea, changeTitle, %1));
+	</action>
+	
+	<action name="showKolorArea_floorPlanArea">
+		set(ptplugin[floorPlanArea].isOpen, true);
+		pauseautorotation(forceplugin);
+
+		js(invokePluginFunction(floorPlanArea, showKolorArea, %1));
+		events.dispatch(onremovedisplayedobject);
+	</action>
+		
+	<action name="hideKolorArea_floorPlanArea">
+		resumeautorotation(forceplugin);
+
+		
+		set(ptplugin[floorPlanArea].isOpen, false);
+		js(invokePluginFunction(floorPlanArea, hideKolorArea, %1));
+	</action>
+	
+	<events name="kolorAreaEvents_floorPlanArea" 
+		keep="true"
+		onremovepano="if(ptplugin[floorPlanArea].isOpen,hideFloorplan();
+);"
+	/>
+	
+
+<!-- ********** -->
+<!-- MAP -->
+<!-- id : button -->
+<!-- ********** -->
+
+  <layer name="button"
+         keep="true"
+         url="%FIRSTXML%/graphics/button/plan.png"
+         align="topleft"
+         x="10"
+         y="10"
+         zorder="3"
+         visible="false"
+         onclick="buttonOnClick"
+         tooltip="buttontooltip"
+         onhover="showTooltip('plugin');"
+         onout="hideTooltip();"
+         height="50"
+         width="50"
+         />
+
+
+
+  <action name="buttonOnClick">showFloorplan();
+
+
+  </action>
+
+  <events name="buttonevents"
+    onTourStart="showbutton();"
+    hidetourcontrols="hidebutton();"
+    showtourcontrols="showbutton();"
+    keep="true" />
+  <action name="hidebutton">set(layer[button].visible, false);</action>
+  <action name="showbutton">if(tour_displaycontrols,set(layer[button].visible, true);,hidebutton(););</action>
+
+
+<!-- ********** -->
+<!-- Full screen -->
+<!-- id : button1 -->
+<!-- ********** -->
+
+  <layer name="button1"
+         keep="true"
+         url="%FIRSTXML%/graphics/button1/full_screen.png"
+         align="bottomright"
+         x="10"
+         y="10"
+         zorder="4"
+         visible="false"
+         onclick="button1OnClick"
+         tooltip="button1tooltip"
+         onhover="showTooltip('plugin');"
+         onout="hideTooltip();"
+         height="50"
+         width="50"
+         />
+
+
+
+  <action name="button1OnClick">switchFullscreen();
+
+
+  </action>
+
+  <events name="button1events"
+    onTourStart="showbutton1();"
+    hidetourcontrols="hidebutton1();"
+    showtourcontrols="showbutton1();"
+    keep="true" />
+  <action name="hidebutton1">set(layer[button1].visible, false);</action>
+  <action name="showbutton1">if(tour_displaycontrols,set(layer[button1].visible, true);,hidebutton1(););</action>
+
+
+<!-- ********** -->
+<!-- 301 -->
+<!-- id : button2 -->
+<!-- ********** -->
+
+  <layer name="button2"
+         keep="true"
+         url="%FIRSTXML%/graphics/button2/_301.png"
+         align="bottomleft"
+         x="10"
+         y="10"
+         zorder="5"
+         visible="false"
+         onclick="button2OnClick"
+         tooltip="button2tooltip"
+         onhover="showTooltip('plugin');"
+         onout="hideTooltip();"
+         height="50"
+         width="50"
+         />
+
+
+
+  <action name="button2OnClick">
+          mainloadscene(pano30);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="button2events"
+    onTourStart="showbutton2();"
+    hidetourcontrols="hidebutton2();"
+    showtourcontrols="showbutton2();"
+    keep="true" />
+  <action name="hidebutton2">set(layer[button2].visible, false);</action>
+  <action name="showbutton2">if(tour_displaycontrols,set(layer[button2].visible, true);,hidebutton2(););</action>
+
+
+<!-- ********** -->
+<!-- 302 -->
+<!-- id : button3 -->
+<!-- ********** -->
+
+  <layer name="button3"
+         keep="true"
+         url="%FIRSTXML%/graphics/button3/_302.png"
+         align="bottomleft"
+         x="75"
+         y="10"
+         zorder="6"
+         visible="false"
+         onclick="button3OnClick"
+         tooltip="button3tooltip"
+         onhover="showTooltip('plugin');"
+         onout="hideTooltip();"
+         height="50"
+         width="50"
+         />
+
+
+
+  <action name="button3OnClick">
+          mainloadscene(pano51);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="button3events"
+    onTourStart="showbutton3();"
+    hidetourcontrols="hidebutton3();"
+    showtourcontrols="showbutton3();"
+    keep="true" />
+  <action name="hidebutton3">set(layer[button3].visible, false);</action>
+  <action name="showbutton3">if(tour_displaycontrols,set(layer[button3].visible, true);,hidebutton3(););</action>
+
+
+<!-- ********** -->
+<!-- logo -->
+<!-- id : button4 -->
+<!-- ********** -->
+
+  <layer name="button4"
+         keep="true"
+         url="%FIRSTXML%/graphics/button4/logo.png"
+         align="topleft"
+         x="10"
+         y="10"
+         zorder="7"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         height="100"
+         width="100"
+         />
+
+
+
+
+  <events name="button4events"
+    onTourStart="showbutton4();"
+    hidetourcontrols="hidebutton4();"
+    showtourcontrols="showbutton4();"
+    keep="true" />
+  <action name="hidebutton4">set(layer[button4].visible, false);</action>
+  <action name="showbutton4">if(tour_displaycontrols,set(layer[button4].visible, true);,hidebutton4(););</action>
+
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);js(setFullscreen(false));</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);js(setFullscreen(true));</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+  <action name="enterFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,true);events.dispatch(onenterfullscreen);</action>
+  <action name="exitFullScreenFallback">set(fullscreen,false);</action>
+  <action name="enterFullScreenFallback">set(fullscreen,true);</action>
+  
+  <action name="resizeFullScreenEvent">delayedcall(0,updatescreen(););</action>
+
+  <!-- FLOORPLAN -->
+  <action name="hideFloorplan">set(tour_displayfloorplan, false);events.dispatch(onhidetourfloorplan);</action>
+  <action name="showFloorplan">set(tour_displayfloorplan, true); events.dispatch(onshowtourfloorplan);</action>
+
+
+</krpano>
